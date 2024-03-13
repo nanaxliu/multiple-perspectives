@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'zpix';
+    src: url(assets/zpix.ttf);
+}
+
+@font-face {
+    font-family: 'RedactionReg';
+    src: url(assets/Redaction50-Regular.otf);
+}
+
+@font-face {
+    font-family: 'RedactionItalic';
+    src: url(assets/Redaction50-Italic.otf);
+}
+
 .container {
     display: grid;
     width: 100vw;
@@ -7,10 +22,31 @@
 }
 
 .item {
-    background-image: url("assets/pegboard.png");
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("assets/pegboard.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    grid-area: 2/3/7/6
+    grid-area: 2/3/7/6;
 }
 
+.text {
+    font-family:'zpix';
+}
+
+.head {
+    font-family:'RedactionItalic';
+    text-align: center;
+    font-size:10vw;
+    font-weight: 200;
+    grid-area: 4/2/4/7;
+    color:rgb(46, 57, 71);
+}
+
+a {
+    text-decoration:none;
+    color:rgb(46, 57, 71);
+  }
+
+a:hover {
+    color:rgb(170, 183, 215);
+  }
