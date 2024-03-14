@@ -29,16 +29,31 @@
     grid-area: 2/3/7/6;
 }
 
-.text {
-    font-family:'zpix';
-}
-
 .head {
     font-family:'RedactionItalic';
     text-align: center;
     font-size:10vw;
     font-weight: 200;
     grid-area: 4/2/4/7;
+    color:rgb(46, 57, 71);
+}
+
+.text {
+    font-family:'RedactionItalic';
+    text-align: center;
+    font-size:3vh;
+    font-weight: 200;
+    grid-area: 4/3/5/6;
+    color:rgb(46, 57, 71);
+    line-height: 2;
+}
+
+.header {
+    font-family:'RedactionItalic';
+    text-align: left;
+    font-size:8vw;
+    font-weight: 200;
+    grid-area: 1/2/2/11;
     color:rgb(46, 57, 71);
 }
 
@@ -50,3 +65,62 @@ a {
 a:hover {
     color:rgb(170, 183, 215);
   }
+
+.p1container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.p1grid {
+    background-image: url("assets/receipt.GIF");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 2/7/11/11;
+}
+
+.p1polaroid1 {
+    background-image: url("assets/ttmcy1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 4/2/11/4;
+}
+
+.p1polaroid2 {
+    background-image: url("assets/ttmcy2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 4/4/11/6;
+}
+
+.p1polaroid3 {
+    background-image: url("assets/ttmcy3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 4/6/11/8;
+}
+
+.p1text {
+    font-family:'RedactionItalic';
+    text-align: left;
+    font-size:21px;
+    font-weight: 200;
+    grid-area: 2/2/5/7;
+    color:rgb(46, 57, 71);
+    line-height: 1.5;
+}
+
+.next {
+    font-family:'RedactionItalic';
+    text-align: center;
+    font-size:20px;
+    font-weight: 200;
+    grid-area: 4/7/5/8;
+    color:rgb(46, 57, 71);
+}
