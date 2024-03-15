@@ -124,3 +124,50 @@ a:hover {
     grid-area: 4/7/5/8;
     color:rgb(46, 57, 71);
 }
+
+.next2 {
+    font-family:'RedactionItalic';
+    text-align: center;
+    font-size:20px;
+    font-weight: 200;
+    grid-area: 4/5/5/8;
+    color:rgb(46, 57, 71);
+}
+
+.video {
+    padding-top: 5%;
+    padding-left: 10%;
+    grid-area: 6/6/11/10;
+}
+
+.p2polaroid1 {
+    background-image: url("assets/w2e1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 1/7/5/9;
+}
+
+.p2polaroid2 {
+    background-image: url("assets/w2e2.jpg");
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 4/3/10/7;
+}
+
+.p2polaroid3 {
+    background-image: url("assets/w2e3.jpg");
+    background-size:220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: 1/8/8/11;
+}
+
+.p2w2es {
+    background-image: url("assets/w2esticker.png");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-area: 3/2/11/7
+}
